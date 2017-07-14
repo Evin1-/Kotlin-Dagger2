@@ -10,7 +10,7 @@ import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
 
-    val TAG = "MainActivityTAG_"
+    private val TAG: String = "MainActivityTAG_"
 
     @Inject
     lateinit var sharedManager: SharedManager
